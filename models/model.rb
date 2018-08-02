@@ -1,7 +1,7 @@
 @@results = []
 
 def equality_quiz_question1(answer)
-  if answer == "answer3"
+  if answer == "answer1"
     @@results.push("AWesome")
   else 
     @@results.push("oops")
@@ -9,7 +9,7 @@ def equality_quiz_question1(answer)
 end 
 
 def equality_quiz_question2(answer)
-  if answer == "answer2"
+  if answer == "answer3"
     @@results.push("AWesome")
   else 
     @@results.push("oops")
