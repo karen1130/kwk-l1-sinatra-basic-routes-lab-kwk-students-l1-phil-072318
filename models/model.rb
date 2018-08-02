@@ -8,9 +8,9 @@ class App < Sinatra::Base
   end
 
   post '/' do
-    @myresult = guncontrol_quiz_question1(params[:question1])
-    @myresult = guncontrol_quiz_question2(params[:question2])
-    @myresult = guncontrol_quiz_question3(params[:question3])
+    @myresult = equality_quiz_question1(params[:question1])
+    @myresult = equality_quiz_question2(params[:question2])
+    @myresult = equality_quiz_question3(params[:question3])
     erb :results
   end 
 end 
