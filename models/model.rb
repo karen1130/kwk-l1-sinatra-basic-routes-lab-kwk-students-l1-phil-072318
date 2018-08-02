@@ -3,7 +3,7 @@
 def equality_quiz_question1(answer)
   if answer == "answer1"
     @@results.push("AWesome")
-  else 
+  else
     @@results.push("oops")
   end 
 end 
