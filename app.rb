@@ -4,7 +4,7 @@ require_relative 'models/model.rb'
 class App < Sinatra::Base
 
   get '/' do
-    erb :gun_control_form
+    erb :equality_form
   end
 
   post '/' do
